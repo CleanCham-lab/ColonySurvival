@@ -242,7 +242,6 @@ pygame library
 Install dependencies:
 
 pip install -r requirements.txt
-# or
 pip install pygame
 
 
@@ -250,7 +249,7 @@ pip install pygame
 From the project root (e.g. colony survival/):
 python -m colony.main
 
-Or directly:
+directly:
 
 python src/colony/main.py
 
@@ -267,7 +266,7 @@ ColonySurvival-Windows.zip for distribution.
 macOS build
 cd /path/to/colony\ survival
 bin/build_macos.sh
-# or use the existing Run_Colony.command wrapper
+use the existing Run_Colony.command wrapper
 
 
 Zip the resulting folder as
