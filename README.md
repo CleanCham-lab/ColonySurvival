@@ -54,7 +54,6 @@ release에 업로드 되어있습니다.
 
 3. 실행 방법:
     ColonySurvival.exe 더블클릭
-    또는
      Run_Colony_Windows.bat (만들어 두었다면) 더블클릭
      Windows SmartScreen 경고가 뜰 수 있습니다.
     “추가 정보 → 실행” 을 눌러 진행해야 할 수 있습니다.
@@ -95,8 +94,7 @@ pip install pygame
 
 python -m colony.main
 
-또는 직접:
-python src/colony/main.py
+직접: python src/colony/main.py
 
 
 ========================================================================
@@ -113,7 +111,7 @@ bin\build_windows.bat
 macOS 빌드
 cd /path/to/colony\ survival
 bin/build_macos.sh
-# 또는 이미 준비된 Run_Colony.command 사용
+이미 준비된 Run_Colony.command 사용
 
 
 결과물 폴더를 ColonySurvival-macOS.zip 으로 압축해 배포
@@ -136,8 +134,7 @@ MIT / Apache-2.0 / GPL 등 원하는 라이선스를 선택해
 LICENSE 파일을 추가하고
 여기에 라이선스 이름을 적어 주세요.
 
-예시:
-License: MIT
+예시: License: MIT
 
 
 
