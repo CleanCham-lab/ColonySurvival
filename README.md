@@ -3,6 +3,9 @@
 # Colony Survival - Lab Xmas Edition 🎄  
 킬링타임용 크리스마스 에디션 셀 컬처 생존 게임
 
+
+
+
 ##  소개 (Korean)
 **Colony Survival - Lab Xmas Edition** 은  
 세포배양실을 배경으로, 크리스마스 시즌에 정신없이 돌아가는 연구실에서  
@@ -18,6 +21,7 @@ macOS / Windows 모두 실행 파일을 제공합니다.
 
 release에 업로드 되어있습니다.
 거기서 다운받아서 사용하세요.
+
 
 ## 주요 특징 (Korean)
 
@@ -39,6 +43,7 @@ release에 업로드 되어있습니다.
 - **가볍게 즐기는 실험실 풍자**
   - 연구실 책상, 팁박스, 플라스크, 배양 플레이트 사이를 파고드는 플레이
   - 크리스마스 시즌에 더 바빠지는 현실 랩 분위기 반영
+
 
 ## 다운로드 & 실행 (유저용)
 
@@ -78,7 +83,7 @@ colony survival/
 
 
 
-개발용 (소스에서 실행)
+### 3) 개발용 (소스에서 실행)
 
 1) 요구 사항
 Python 3.10 이상
@@ -98,7 +103,7 @@ python -m colony.main
 
 
 
-빌드 (개발자용)
+### 4) 빌드 (개발자용)
 Windows 빌드 (PyInstaller)
 cd "D:\CSW\colony survival\colony survival"
 bin\build_windows.bat
@@ -114,7 +119,7 @@ bin/build_macos.sh
 결과물 폴더를 ColonySurvival-macOS.zip 으로 압축해 배포
 
 
-제작 / 저작권 (Korean)
+# 제작 / 저작권 (Korean)
 
 개발: 채승원 (Seung Won Chae)
 소속: 서울대학교병원 진단검사의학과 분자진단검사실
@@ -123,8 +128,7 @@ bin/build_macos.sh
 “Colony Survival - Lab Xmas Edition, by Seung-Won Chae (SNUH Laboratory Medicine)”
 정도로 표기해 주시면 좋습니다.
 
-
-라이선스 (Korean)
+## 라이선스 (Korean)
 
 아직 공개 라이선스를 명시하지 않았다면,
 MIT / Apache-2.0 / GPL 등 원하는 라이선스를 선택해
@@ -230,7 +234,7 @@ On first launch, if you see an “unidentified developer” warning:
 Control + Click → Open on Run_Colony.command and confirm
 
 
-**Development (Run from Source)**
+### 3) Development (Run from Source)
 1) Requirements
 
 Python 3.10+
@@ -250,7 +254,7 @@ Or directly:
 
 python src/colony/main.py
 
-🛠 Build (For Developers)
+### 4) Build (For Developers)
 Windows build (PyInstaller)
 cd "D:\CSW\colony survival\colony survival"
 bin\build_windows.bat
@@ -270,7 +274,7 @@ Zip the resulting folder as
 ColonySurvival-macOS.zip for distribution.
 
 
-**Author / Copyright**
+# Author / Copyright
 
 Developer: Seung Won Chae
 
