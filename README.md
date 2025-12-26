@@ -3,8 +3,6 @@
 # Colony Survival - Lab Xmas Edition 🎄  
 킬링타임용 크리스마스 에디션 셀 컬처 생존 게임
 
----
-
 ##  소개 (Korean)
 **Colony Survival - Lab Xmas Edition** 은  
 세포배양실을 배경으로, 크리스마스 시즌에 정신없이 돌아가는 연구실에서  
@@ -21,7 +19,6 @@ macOS / Windows 모두 실행 파일을 제공합니다.
 release에 업로드 되어있습니다.
 거기서 다운받아서 사용하세요.
 
----
 ## 주요 특징 (Korean)
 
 - **탑다운 액션 생존 게임**
@@ -43,7 +40,6 @@ release에 업로드 되어있습니다.
   - 연구실 책상, 팁박스, 플라스크, 배양 플레이트 사이를 파고드는 플레이
   - 크리스마스 시즌에 더 바빠지는 현실 랩 분위기 반영
 
----
 ## 다운로드 & 실행 (유저용)
 
 ### 1) Windows
@@ -81,7 +77,7 @@ colony survival/
   Run_Colony.command 를 Control + 클릭 → 열기 를 선택
 
 
-======================================================================================================
+========================================================================
 
 개발용 (소스에서 실행)
 
@@ -103,7 +99,7 @@ python -m colony.main
 python src/colony/main.py
 
 
-======================================================================================================
+========================================================================
 
 빌드 (개발자용)
 Windows 빌드 (PyInstaller)
@@ -122,7 +118,7 @@ bin/build_macos.sh
 
 결과물 폴더를 ColonySurvival-macOS.zip 으로 압축해 배포
 
-======================================================================================================
+========================================================================
 제작 / 저작권 (Korean)
 
 개발: 채승원 (Seung Won Chae)
@@ -145,16 +141,13 @@ License: MIT
 
 
 
-==================================================================================================================================================================================================================================================================================================================
-
-##  Introduce (English)
+========================================================================
 
 # ColonySurvival
 
 # Colony Survival - Lab Xmas Edition 🎄  
 A small Christmas-edition cell culture survival game
 
----
 
 ##  Introduction (English)
 
@@ -174,7 +167,7 @@ and provides binaries for both **macOS** and **Windows**.
 Prebuilt binaries are uploaded in the **GitHub Releases** section.  
 Please download and use the version for your platform from there.
 
----
+
 
 ##  Key Features (English)
 
@@ -242,7 +235,7 @@ On first launch, if you see an “unidentified developer” warning:
 
 Control + Click → Open on Run_Colony.command and confirm
 
-======================================================================================================
+========================================================================
 
 **Development (Run from Source)**
 1) Requirements
@@ -284,8 +277,8 @@ Zip the resulting folder as
 ColonySurvival-macOS.zip for distribution.
 
 
-======================================================================================================
-Author / Copyright
+========================================================================
+**Author / Copyright**
 
 Developer: Seung Won Chae
 
@@ -298,7 +291,7 @@ please credit it as:
 
 “Colony Survival - Lab Xmas Edition, by Seung-Won Chae (SNUH Laboratory Medicine)”
 
-======================================================================================================
+========================================================================
 License
 
 A public open-source license has not yet been explicitly specified.
