@@ -76,7 +76,7 @@ colony survival/
   Run_Colony.command 를 Control + 클릭 → 열기 를 선택
 
 
-========================================================================
+
 
 개발용 (소스에서 실행)
 
@@ -86,7 +86,6 @@ pygame 라이브러리
 
 
 pip install -r requirements.txt
-# 또는
 pip install pygame
 
 2) 실행 (공통)
@@ -97,7 +96,7 @@ python -m colony.main
 직접: python src/colony/main.py
 
 
-========================================================================
+
 
 빌드 (개발자용)
 Windows 빌드 (PyInstaller)
@@ -112,11 +111,9 @@ macOS 빌드
 cd /path/to/colony\ survival
 bin/build_macos.sh
 이미 준비된 Run_Colony.command 사용
-
-
 결과물 폴더를 ColonySurvival-macOS.zip 으로 압축해 배포
 
-========================================================================
+
 제작 / 저작권 (Korean)
 
 개발: 채승원 (Seung Won Chae)
@@ -138,7 +135,7 @@ LICENSE 파일을 추가하고
 
 
 
-========================================================================
+
 
 # ColonySurvival
 
@@ -232,7 +229,6 @@ On first launch, if you see an “unidentified developer” warning:
 
 Control + Click → Open on Run_Colony.command and confirm
 
-========================================================================
 
 **Development (Run from Source)**
 1) Requirements
@@ -274,7 +270,6 @@ Zip the resulting folder as
 ColonySurvival-macOS.zip for distribution.
 
 
-========================================================================
 **Author / Copyright**
 
 Developer: Seung Won Chae
@@ -288,7 +283,6 @@ please credit it as:
 
 “Colony Survival - Lab Xmas Edition, by Seung-Won Chae (SNUH Laboratory Medicine)”
 
-========================================================================
 License
 
 A public open-source license has not yet been explicitly specified.
