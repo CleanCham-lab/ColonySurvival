@@ -1,5 +1,5 @@
 ========================================
- Colony Survival — Lab Xmas Edition  v2.0.0
+ Colony Survival — Lab Xmas Edition  v2.0.1
 ========================================
 
 12월 24일 밤, 모두 퇴근한 배양실.

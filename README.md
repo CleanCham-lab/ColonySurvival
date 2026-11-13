@@ -14,8 +14,8 @@
 
 | OS | 파일 | 실행 방법 |
 | --- | --- | --- |
-| Windows 10/11 | `ColonySurvival_v2.0.0_Windows.zip` | 압축 풀고 `ColonySurvival.exe` 더블클릭. 파란 "Windows의 PC 보호" 창이 뜨면 **추가 정보 → 실행** |
-| macOS 10.13 이상 (Intel·Apple Silicon) | `ColonySurvival_v2.0.0_macOS.zip` | 압축 풀고 `Colony Survival.app` 더블클릭. "확인되지 않은 개발자" 경고가 뜨면 **시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기** |
+| Windows 10/11 | `ColonySurvival_v2.0.1_Windows.zip` | 압축 풀고 `ColonySurvival.exe` 더블클릭. 파란 "Windows의 PC 보호" 창이 뜨면 **추가 정보 → 실행** |
+| macOS 10.13 이상 (Intel·Apple Silicon) | `ColonySurvival_v2.0.1_macOS.zip` | 압축 풀고 `Colony Survival.app` 더블클릭. "확인되지 않은 개발자" 경고가 뜨면 **시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기** |
 
 저장(연구비·해금·기록·설정)은 자동으로 됩니다.
 
@@ -89,6 +89,11 @@
 | 버프·디버프 | 60종 정의, 실제 작동 안 함 | 시약 8종 + '오늘의 실험 조건'으로 재활용 |
 | 저장 | 없음 | 연구비·해금·기록·설정 |
 | 그래픽·소리 | 도형, Windows 한글 깨짐 | 형광현미경 아트, Pretendard 폰트, 새 음악·효과음 |
+
+## 업데이트 기록
+
+- **v2.0.1** (2026-11-13) — 구형 Intel Mac(2015 MacBook Pro 등)에서 실행하자마자 꺼지던 문제 수정
+- **v2.0.0** (2026-11-13) — 전면 개편 버전 공개
 
 ## 제작
 
