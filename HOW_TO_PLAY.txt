@@ -1,43 +1,54 @@
 ========================================
- Colony Survival — Lab Xmas Edition  v2.0.1
+ Colony Survival — Lab Xmas Edition  v3.0.0
 ========================================
 
-12월 24일 밤, 모두 퇴근한 배양실.
-아침 9시(실제 15분)까지 컨탐으로부터 콜로니를 지키고,
-마지막에 나타나는 최종 심사위원 Reviewer #2를 쓰러뜨려라!
+12월 24일 밤, 모두 퇴근한 연구소 — 세포들의 야근이 시작된다.
+배양접시에서 분석 서버실까지 다섯 구역을 지나,
+최종 심사위원 Reviewer #2에게서 Accept를 받아 내라!
 
-[실행]  Godot 같은 프로그램을 따로 설치할 필요가 없습니다.
+[실행]  따로 설치할 프로그램은 없습니다.
   • Windows : ColonySurvival.exe 더블클릭
               파란 "Windows의 PC 보호" 창이 뜨면 → 추가 정보 → 실행
-  • Mac     : zip을 풀고 Colony Survival.app 더블클릭
-              (응용 프로그램 폴더로 옮겨 두면 편합니다)
-              "확인되지 않은 개발자" / "확인할 수 없음" 경고가 뜨면 →
+  • Mac     : Colony Survival.app 더블클릭 (응용 프로그램 폴더로 옮겨 두면 편합니다)
+              "확인되지 않은 개발자" / "열 수 없습니다" 경고가 뜨면 → 완료를 누르고
               시스템 설정 → 개인정보 보호 및 보안 → 아래쪽 "그래도 열기"
+              (처음 한 번만 하면 됩니다. macOS 12 이상)
 
 [조작]
   이동            WASD / 방향키 / 게임패드 왼쪽 스틱
   공격            자동!
-  레벨업 선택     1·2·3 키, ↑↓ + Enter, 또는 마우스 클릭
+  대시            Space 또는 왼쪽 Shift  (튀어 나가는 동안 무적)
+  궁극기          Q 또는 E  (화면 아래 게이지가 다 차면)
+  레벨업 선택     1·2·3 키, ←→ + Enter, 또는 마우스 클릭
   다시 뽑기       R
-  일시정지        Esc
-  전체화면        Windows: F11   /   Mac: ⌘ + Ctrl + F
-                  (설정 메뉴에도 있음)
+  일시정지        Esc 또는 P
+  전체화면        Windows: F11   /   Mac: ⌘ + Ctrl + F   (설정 메뉴에도 있음)
 
-[메뉴]
-  시작하기  → 실험 설정(모드·스테이지·난이도) → 셀라인 고르기
-    모드      정규 실험 / 야근 모드(끝없이 버티기) / 오늘의 실험 조건(날짜마다 버프+디버프)
-    스테이지  배양접시 / 클린벤치(층류가 아래로 밀고, UV 램프가 주기적으로 쓸고 지나감)
-    난이도    학부연구생(쉬움) / 대학원생(보통) / 리뷰어 모드(어려움, 연구비 ×1.5)
-  연구실    런에서 번 연구비로 영구 강화 구매 (HP·피해·쿨다운·부활·셀라인 해금 등)
-  설정      전체/음악/효과음 볼륨, 색각 친화 모드, 화면 흔들림, 피해 숫자, FPS, 전체화면
+[진행]
+  실험 시작 → 구역 · 셀라인 · 난이도를 고릅니다.
+  구역 시간이 끝나면 보스가 나오고, 쓰러뜨리면 다음 구역이 열립니다.
+    1 배양접시 → 2 클린벤치 → 3 PCR실 → 4 시퀀싱실(숏리드/롱리드) → 5 분석 서버실
+  런에서 번 연구비로 연구실에서 영구 강화를 삽니다.
+  어렵다면 난이도를 "쉬움 · 학부연구생"으로 — 받는 피해가 줄고 체력이 천천히 회복됩니다.
 
-[색의 의미]  형광현미경처럼 보입니다
-  파랑·시안 = 나와 내 무기    초록 = 주울 것(ATP·선물상자)
-  빨강     = 적·적 공격       노랑 = 곧 공격이 온다는 경고
-  (설정 → 색 구분 모드 "색각 친화": 파랑 = 나, 노랑 = 주울 것, 주황 = 적, 흰색 = 경고)
+[알아 두면 좋은 것]
+  • 초록 결정(ATP)을 주우면 경험치. 레벨업마다 3개 중 하나를 고릅니다.
+  • 팁 박스를 부수면 핫코코아(HP 회복)가 나옵니다.
+  • 일부 무기는 적의 탄환을 확률로 지웁니다 (Nanopore Ring 75% 등 — 도감 참고).
+  • 노란 고리를 두른 적은 엘리트, 바닥의 색칠된 원·선은 곧 공격이 떨어질 자리입니다.
 
-[저장]  연구비·해금·기록·설정은 자동 저장됩니다.
+[언어]  설정 → 언어 Language 에서 한국어 / English
 
-Game by Seung-Won Chae (채승원)
-Molecular Diagnostics Laboratory, Department of Laboratory Medicine, SNUH
-Font: Pretendard (SIL OFL 1.1)
+[저장]  연구비·해금·도감·설정은 자동 저장됩니다.
+
+----------------------------------------
+ English
+----------------------------------------
+Run: Windows — double-click ColonySurvival.exe (if SmartScreen appears: More info → Run anyway).
+     Mac — double-click Colony Survival.app. If macOS blocks it, click Done, then open
+     System Settings → Privacy & Security → Open Anyway (first launch only; macOS 12+).
+Controls: Move WASD/arrows/left stick · Attack is automatic · Dash Space/Left Shift ·
+          Ultimate Q/E · Level-up choice 1-2-3 or click · Reroll R · Pause Esc/P.
+Language: Settings → Language.
+
+제작 Seung Won Chae · https://github.com/CleanCham-lab/ColonySurvival
