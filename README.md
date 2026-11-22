@@ -1,6 +1,8 @@
-<img src="docs/icon.png" width="96" align="right" alt="Colony Survival 아이콘">
+<p align="center"><img src="docs/icon.png" width="128" alt="Colony Survival 아이콘"></p>
 
-# Colony Survival — Lab Xmas Edition 🎄
+<h1 align="center">Colony Survival — Lab Xmas Edition 🎄</h1>
+
+<p align="center"><b>한국어</b> · <a href="README.en.md">English</a></p>
 
 **12월 24일 밤, 모두 퇴근한 연구소 — 세포들의 야근이 시작된다.**
 
@@ -123,8 +125,6 @@ v3.0.0은 Godot 4로 만든 v2를 **Unity 6로 처음부터 다시 만든** 버�
 | 언어 | 한국어 | 한국어 / English |
 | Mac | 유니버설 1개 | Apple Silicon용 / Intel용 따로 |
 
-v2에 있던 야근 모드, 오늘의 실험 조건, 색각 친화 모드는 v3.0.0에는 아직 없습니다.
-
 ### 이전 버전
 
 이전 버전도 계속 받을 수 있습니다.
@@ -145,13 +145,6 @@ v2에 있던 야근 모드, 오늘의 실험 조건, 색각 친화 모드는 v3.
 
 `save.json`(진행 상황)과 `playlog.jsonl`(한 판의 요약: 구역, 난이도, 생존 시간, 피격 횟수 등)이 여기에 저장됩니다. 이 파일들은 내 컴퓨터에만 남고 어디로도 전송되지 않습니다.
 
-## 소스에서 빌드하기
-
-1. Unity Hub에서 **Unity 6000.6.10f1**로 이 폴더를 엽니다 (Mac·Windows 빌드 모듈 필요).
-2. 메뉴 **Colony Survival ▸ Build ▸ All** — `Builds/` 아래에 세 플랫폼용이 만들어집니다.
-
-게임은 씬이나 프리팹 없이 코드에서 모두 만들어집니다 (`Assets/Scripts`). 그림은 텍스처 없이 셰이더 수식으로 그립니다 (`Assets/Resources/Shaders`).
-
 ## 제작
 
 - 개발 · 음악 · 아트: **채승원 (Seung Won Chae)**
@@ -160,6 +153,6 @@ v2에 있던 야근 모드, 오늘의 실험 조건, 색각 친화 모드는 v3.
 
 ## 라이선스
 
-- 게임 코드·그래픽·음악의 저작권은 제작자에게 있습니다. (별도 오픈소스 라이선스는 아직 지정하지 않았습니다.)
+- 게임 코드·그래픽·음악: [MIT License](LICENSE) © 2025-2026 Seung Won Chae
 - 폰트: Pretendard © Kil Hyung-jin, SIL Open Font License 1.1 (`Assets/Resources/Fonts/Pretendard-OFL.txt`)
 - 엔진: Unity 6
